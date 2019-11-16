@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DevDesk - Style Guide</title>
+
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            color: rgb(87, 87, 87);
+            font-size: 62.5%;
+        }
+
+        main {
+            font-size: 1.3rem;
+            width: 90%;
+            height: 100vh;
+            margin: 10% auto;
+        }
+
+        section {
+            padding-top: 5%;
+        }
+
+        section.colors {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 300px;
+            height: 350px;
+            padding: 0.7rem;
+            border: 5px solid #ddd;
+            margin-bottom: 2.2%;
+            text-align: center;
+        }
+
+        .color {
+            height: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h2>Colors</h2>
+        <section class="colors">
+            <div class="card">
+                <div class="color" style="background-color: #880C23"></div>
+                <p>#880C23</p>
+                <p>Main red</p>
+            </div>
+
+            <div class="card">
+                <div class="color" style="background-color: #F6F7FB"></div>
+                <p>#F6F7FB</p>
+                <p>Off-white--used to contrast with #fff</p>
+            </div>
+
+            <div class="card">
+                <div class="color" style="background-color: #233D6E"></div>
+                <p>#233D6E</p>
+                <p>Main blue</p>
+            </div>
+
+            <div class="card">
+                <div class="color" style="background-color: #14131C"></div>
+                <p>#14131C</p>
+                <p>Footer black</p>
+            </div>
+
+            <div class="card">
+                <div class="color" style="background-color: #383651"></div>
+                <p>#383651</p>
+                <p>Main font color -- use #fff for light text on dark</p>
+            </div>
+
+            <div class="card">
+                <div class="color" style="background-color: #4297CF"></div>
+                <p>#4297CF</p>
+                <p>Secondary blue -- buttons, etc.</p>
+            </div>
+
+            <div class="card">
+                <div class="color" style="background-color: #880C23"></div>
+                <p>#BF0033</p>
+                <p>Secondary red -- buttons, etc.</p>
+            </div>
+
+        </section>
+
+        <section class="fonts">
+            <h2>Fonts</h2>
+            <ul>
+                <li><a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a> (font-weight 700 for headings, 400 all else)</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+
+</html>

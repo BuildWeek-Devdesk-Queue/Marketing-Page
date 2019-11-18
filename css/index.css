@@ -103,6 +103,17 @@ header nav a {
   color: #383651;
   font-weight: 700;
 }
+footer {
+  height: 150px;
+  text-align: center;
+  background-color: #14131C;
+  color: #707486;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .main-hero {
   height: 70vh;
   display: flex;

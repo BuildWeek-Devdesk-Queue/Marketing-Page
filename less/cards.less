@@ -1,0 +1,25 @@
+
+.card-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    .flex(space-around, @wrap: wrap);
+    
+    .card {
+        background-color: #fff;
+        width: 30%;
+        text-align: center;
+        box-shadow: 0px 1px 4px 0px rgba(216, 216, 216, 0.75);
+
+        .card-img {
+            max-width: 100%;
+        }
+
+        .card-body {
+            padding: 6%;
+        }
+
+        a {
+            font-weight: @bold-font-weight;
+        }
+    }
+}

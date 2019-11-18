@@ -36,6 +36,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  line-height: 1.6;
 }
 .button {
   background-color: #BF0033;
@@ -72,4 +73,21 @@ header nav a {
   text-decoration: none;
   color: #383651;
   font-weight: 700;
+}
+.main-hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #383651;
+  color: #fff;
+}
+.main-hero .cta {
+  text-align: center;
+  width: 30%;
+}
+.main-hero .cta .button {
+  margin-top: 5rem;
 }

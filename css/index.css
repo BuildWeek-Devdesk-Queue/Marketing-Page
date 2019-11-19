@@ -72,11 +72,26 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
 .card-list .card {
   background-color: #fff;
   width: 30%;
   text-align: center;
   box-shadow: 0px 1px 4px 0px rgba(216, 216, 216, 0.75);
+}
+@media (max-width: 500px) {
+  .card-list .card {
+    width: 90%;
+    margin-bottom: 7%;
+  }
 }
 .card-list .card .card-img {
   max-width: 100%;

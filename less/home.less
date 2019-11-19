@@ -12,12 +12,24 @@
         text-align: center;
         width: 30%;
 
+        @media @desktop-sm {
+            width: 70%;
+        }
+
+        @media @tablet {
+            width: 70%;
+        }
+
         @media @phone {
             width: 80%;
         }
 
         h1 {
             font-size: 6rem;
+
+            @media @tablet {
+                font-size: 4.5rem;
+            }
 
             @media @phone {
                 font-size: 4rem;

@@ -1,6 +1,7 @@
 
 .main-hero {
-    height: 70vh;
+    padding-top: 75px;
+    height: 80vh;
     .flex(center, center);
     background-color: @darkpurp;
     color: #fff;
@@ -12,6 +13,30 @@
         text-align: center;
         width: 30%;
 
+        @media @desktop-sm {
+            width: 70%;
+        }
+
+        @media @tablet {
+            width: 70%;
+        }
+
+        @media @phone {
+            width: 80%;
+        }
+
+        h1 {
+            font-size: 6rem;
+
+            @media @tablet {
+                font-size: 4.5rem;
+            }
+
+            @media @phone {
+                font-size: 4rem;
+            }
+        }
+
         .button {
             display: inline-block;
             margin-top: 3.5rem;
@@ -21,7 +46,7 @@
 
 .process {
     background-color: @off-white;
-    padding: 5% 0;
+    padding: 3.5% 0;
     .gutters-padding();
     
     h2 {

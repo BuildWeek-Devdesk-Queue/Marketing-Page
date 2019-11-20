@@ -259,3 +259,6 @@ header + section:first-of-type {
   text-align: center;
   padding-bottom: 75px;
 }
+.credits .card {
+  margin-bottom: 4%;
+}

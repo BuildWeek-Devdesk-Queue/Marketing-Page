@@ -252,3 +252,10 @@ footer {
 .process h2 {
   text-align: center;
 }
+header + section:first-of-type {
+  padding-top: 75px;
+}
+.credits {
+  text-align: center;
+  padding-bottom: 75px;
+}
